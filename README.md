@@ -1,7 +1,7 @@
 <div align="center">
-  
-# Schedule_Snap
+
 **:trophy: 2023 BRIGHT MAKERS EXPO 캡스톤경진대회 우수상 :trophy:**
+# Schedule_Snap
 
 **AI 기술을 활용한 자동 일정 등록 앱**
 
