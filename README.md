@@ -23,7 +23,7 @@
 
 ## 소개영상 (YouTube)  
 [![Video Label](https://github.com/user-attachments/assets/5b7f6953-e5ad-430c-9955-435eced3c281)](https://www.youtube.com/watch?v=ExNMmo1e0Rw)  
-[사진을 누르면 이동합니다]
+#### **사진을 누르면 이동합니다**
 
 </div>
 
@@ -56,10 +56,29 @@
 ![Frame 67](https://github.com/user-attachments/assets/6c35f9f7-21ff-44d3-bff5-861125bba00d)
 
 # 주요 기능
-## 일정 등록
+## 일정 등록 (기본)
+<img src="https://github.com/user-attachments/assets/1cd95560-74c0-4cdb-bae5-1ede7c496f28" width="200" height="400"/>
+<img src="https://github.com/user-attachments/assets/5ed41b4b-5ee6-4368-ad4b-c6e3908c2afb" width="200" height="400"/>
+<img src="https://github.com/user-attachments/assets/7ad881df-2cd7-440e-90ee-15d179d0eaa5" width="200" height="400"/>
+<img src="https://github.com/user-attachments/assets/d912c1fd-c052-4c8b-966c-1177dede4100" width="200" height="400"/>
+
+### AI 일정 등록 (이미지 / URL / 텍스트)
+<img src="https://github.com/user-attachments/assets/170688bd-7e2f-4f94-aa8b-69bef854b5d2" width="200" height="400"/>
+<img src="https://github.com/user-attachments/assets/8cd1571f-b458-4340-a54a-020c3f04893d" width="200" height="400"/>
+<img src="https://github.com/user-attachments/assets/992c581a-7931-4114-be7e-2625f3706f9e" width="200" height="400"/>
+
 ### 거리 측정
+<img src="https://github.com/user-attachments/assets/bd034181-ed55-42b8-bfca-8c9f0e9a591f" width="200" height="400"/>
+<img src="https://github.com/user-attachments/assets/279d6334-bd97-45d6-aff4-c4230bd63bf9" width="200" height="400"/>
+
 ### 일정 시작시 행동
-### 기본
-### AI 등록 (이미지 / URL / 텍스트)
-## 데일리 기능
+
+## 그 외
+### 길찾기
+<img src="https://github.com/user-attachments/assets/ee17cabb-37f2-433f-9223-0a92301d9231" width="200" height="400"/>
+<img src="https://github.com/user-attachments/assets/cd01b918-ee66-453d-ab7b-a096db905e6f" width="200" height="400"/>
+
+
+
+
 
