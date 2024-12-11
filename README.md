@@ -114,7 +114,18 @@ Map_Button(String text, String URL, String icon) {
 **해당 패키지는 중단되었기에, <a href="https://pub.dev/packages/installed_apps" target="_blank">다른 패키지</a>를 사용해야합니다.
 </details>
 
-
+# 라이선스 및 사용된 주요 패키지
+```yaml
+google_sign_in: // 구글 로그인
+google_maps_flutter: ^2.3.0 // 구글 지도
+geolocator: ^9.0.2 // 위치 확인
+kpostal: ^0.5.1 // 카카오 우편번호 API
+url_launcher: ^6.1.11 // 사이트 오픈
+device_apps: ^2.2.0 // 일정 시작시 행동 (설치된 앱 리스트)
+camera: ^0.10.5+3 // 카메라
+image_picker: ^1.0.2 // 갤러리
+sqflite: ^2.2.8+4 // 로컬 데이터베이스
+```
 
 
 
