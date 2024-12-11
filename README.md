@@ -69,13 +69,13 @@
 <img src="https://github.com/user-attachments/assets/a15a8930-0b90-4f9f-932a-f7a8db2b2ba1" width="200" height="400"/>
 
 ### 거리 측정 (출발지-목적지 설정)
-<img src="https://github.com/user-attachments/assets/f29995ae-8ee9-440e-be15-bb55bebaf0c0" width="400" height="300"/>
-<img src="https://github.com/user-attachments/assets/bd034181-ed55-42b8-bfca-8c9f0e9a591f" width="200" height="400"/>
-<img src="https://github.com/user-attachments/assets/279d6334-bd97-45d6-aff4-c4230bd63bf9" width="200" height="400"/>
+<img src="https://github.com/user-attachments/assets/f29995ae-8ee9-440e-be15-bb55bebaf0c0" width="500" height="300"/>
+<img src="https://github.com/user-attachments/assets/bd034181-ed55-42b8-bfca-8c9f0e9a591f" width="150" height="300"/>
+<img src="https://github.com/user-attachments/assets/279d6334-bd97-45d6-aff4-c4230bd63bf9" width="150" height="300"/>
 
 ### 일정 시작시 행동
-<img src="https://github.com/user-attachments/assets/b11628b0-b3e4-47ad-9c47-4dd00753c568" width="400" height="300"/>
-<img src="https://github.com/user-attachments/assets/ca5b3710-67c5-48ce-b611-3944fffcc99a" width="400" height="400"/>
+<img src="https://github.com/user-attachments/assets/b11628b0-b3e4-47ad-9c47-4dd00753c568" width="500" height="300"/>
+<img src="https://github.com/user-attachments/assets/ca5b3710-67c5-48ce-b611-3944fffcc99a" width="300" height="300"/>
 
 ## 그 외
 ### 길찾기
