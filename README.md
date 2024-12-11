@@ -62,6 +62,8 @@
 <img src="https://github.com/user-attachments/assets/7ad881df-2cd7-440e-90ee-15d179d0eaa5" width="200" height="400"/>
 <img src="https://github.com/user-attachments/assets/d912c1fd-c052-4c8b-966c-1177dede4100" width="200" height="400"/>
 
+
+
 ### AI 일정 등록 (이미지 / URL / 텍스트)
 <img src="https://github.com/user-attachments/assets/170688bd-7e2f-4f94-aa8b-69bef854b5d2" width="200" height="400"/>
 <img src="https://github.com/user-attachments/assets/992c581a-7931-4114-be7e-2625f3706f9e" width="200" height="400"/>
@@ -73,14 +75,28 @@
 <img src="https://github.com/user-attachments/assets/bd034181-ed55-42b8-bfca-8c9f0e9a591f" width="150" height="300"/>
 <img src="https://github.com/user-attachments/assets/279d6334-bd97-45d6-aff4-c4230bd63bf9" width="150" height="300"/>
 
+사용자가 출발지와 목적지를 <a href="https://postcode.map.daum.net/guide" target="_blank">카카오 우편번호 API</a>를 활용해서 가져오면 </br>
+해당 데이터를 기반으로 **URL Scheme**을 통해 타사 지도로 연결해줍니다.
+
+```dart
+Map_Button(String text, String URL, String icon) {
+...
+ child: OutlinedButton(
+  style: OutlinedButton.styleFrom(side: BorderSide(width: 1, color: Colors.white)),
+   onPressed: (_startlocation.text.isNotEmpty && _endlocation.text.isNotEmpty)
+    ? () async {
+     await launchUrl(Uri.parse(URL), mode: LaunchMode.externalApplication);
+     // 구글 : "https://www.google.com/maps/dir/?api=1&origin=${_startlocation.text}&destination=${_endlocation.text}&travelmode=transit"
+     // 네이버 : "nmap://route/public?slat=${start_lat}&slng=${start_lng}&sname=${_startlocation.text}&dlat=${end_lat}&dlng=${end_lng}&dname=${_endlocation.text}&appname={your_appname}"
+     // 카카오 : "kakaomap://route?sp=${start_lat},${start_lng}&ep=${end_lat},${end_lng}&by=PUBLICTRANSIT"
+  }
+...
+```
+
 ### 일정 시작시 행동
 <img src="https://github.com/user-attachments/assets/b11628b0-b3e4-47ad-9c47-4dd00753c568" width="500" height="300"/>
 <img src="https://github.com/user-attachments/assets/ca5b3710-67c5-48ce-b611-3944fffcc99a" width="300" height="300"/>
 
-## 그 외
-### 길찾기
-<img src="https://github.com/user-attachments/assets/ee17cabb-37f2-433f-9223-0a92301d9231" width="200" height="400"/>
-<img src="https://github.com/user-attachments/assets/cd01b918-ee66-453d-ab7b-a096db905e6f" width="200" height="400"/>
 
 
 
