@@ -31,9 +31,33 @@
 ### 개발 기간
 2023.01.10 ~ 2023.11.01 (9개월 26일)
 ### 맴버
-- 팀장 / 프론트 / 기획 & 앱 개발 : 박준영
-- 팀원 / 백앤드 / 서버 : 김원래
-- 팀원 / 백앤드 / 인공지능 API : 박주성
+<div align="center">
+  <table>
+    <tr>
+      <td align="center"><strong><a href="https://github.com/PlayTheApp"><button>박준영</button></a></strong></td>
+      <td align="center"><strong><a href="https://github.com/onenewarm"><button>김원래</button></a></strong></td>
+      <td align="center"><strong><a href="https://github.com/JSPpark"><button>박주성</button></a></strong></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://avatars.githubusercontent.com/u/92419169?v=4" width="100"></td>
+      <td align="center"><img src="https://avatars.githubusercontent.com/u/87406659?v=4" width="100"></td>
+      <td align="center"><img src="https://avatars.githubusercontent.com/u/118038233?v=4" width="100"></td>
+    </tr>
+    <tr>
+      <td align="center">👑 PM</td>
+      <td align="center">Back-End</td>
+      <td align="center">AI</td>
+    </tr>
+    <tr>
+      <td align="center">기획, 디자인, 개발</a></td>
+      <td align="center">서버</a></td>
+      <td align="center">인공지능 처리</a></td>
+    </tr>
+  </table>
+</div>
+<br>
+<br>
+
 ### 개발 배경
  대학 생활은 할 일이 많습니다. 수업, 시험 날짜, 동아리, 경진대회, 동기들과의 약속 등 다양한 일정들을 바쁜 생활 속에서 관리하기 위해 캘린더에 작성을 했습니다. 이러한 일정을 기록하는 행동은 번거롭고 불편했습니다. 그래서, **“자동으로 일정을 관리해 주는 시스템이 있으면 어떨까?”** 라는 생각했습니다. 이러한 개인의 불편함은 다른 사람들도 공통적으로 느낄 수 있다고 판단이 되었고, 이번 캡스톤 디자인에서 이 프로젝트를 기획하였습니다.
 
@@ -56,33 +80,29 @@
 ![Frame 67](https://github.com/user-attachments/assets/6c35f9f7-21ff-44d3-bff5-861125bba00d)
 
 # 주요 기능
-<details>
-<summary>
-  일정 등록 (기본)
-</summary>
+<div align="center">
+ 
+### [유튜브 바로가기](https://www.youtube.com/watch?v=ExNMmo1e0Rw) <br>
+더 자세한 내용은 유튜브에서 확인이 가능합니다. 
+
+</div>
+
+### 일정 등록 (기본)
    <img src="https://github.com/user-attachments/assets/ed8cd713-f82f-4c2a-9f37-cb71cca8fd43" width="200" height="400"/>
    <img src="https://github.com/user-attachments/assets/5ed41b4b-5ee6-4368-ad4b-c6e3908c2afb" width="200" height="400"/>
    <img src="https://github.com/user-attachments/assets/7ad881df-2cd7-440e-90ee-15d179d0eaa5" width="200" height="400"/>
    <img src="https://github.com/user-attachments/assets/d912c1fd-c052-4c8b-966c-1177dede4100" width="200" height="400"/>
-</details>
 
-<details>
-<summary>
-  AI 일정 등록 (이미지 / URL / 텍스트)
-</summary>
+### AI 일정 등록 (이미지 / URL / 텍스트)
    <img src="https://github.com/user-attachments/assets/170688bd-7e2f-4f94-aa8b-69bef854b5d2" width="200" height="400"/>
    <img src="https://github.com/user-attachments/assets/992c581a-7931-4114-be7e-2625f3706f9e" width="200" height="400"/>
    <img src="https://github.com/user-attachments/assets/12dbbae7-66c1-4cbe-84cd-fb12ac72e269" width="200" height="400"/>
    <img src="https://github.com/user-attachments/assets/a15a8930-0b90-4f9f-932a-f7a8db2b2ba1" width="200" height="400"/>
-</details>
 
-<details>
-<summary>
-  거리 측정 (출발지-목적지 설정)
-</summary>
-<img src="https://github.com/user-attachments/assets/f29995ae-8ee9-440e-be15-bb55bebaf0c0" width="500" height="300"/>
-<img src="https://github.com/user-attachments/assets/bd034181-ed55-42b8-bfca-8c9f0e9a591f" width="150" height="300"/>
-<img src="https://github.com/user-attachments/assets/279d6334-bd97-45d6-aff4-c4230bd63bf9" width="150" height="300"/>
+### 거리 측정 (출발지-목적지 설정)
+   <img src="https://github.com/user-attachments/assets/f29995ae-8ee9-440e-be15-bb55bebaf0c0" width="500" height="300"/>
+   <img src="https://github.com/user-attachments/assets/bd034181-ed55-42b8-bfca-8c9f0e9a591f" width="150" height="300"/>
+   <img src="https://github.com/user-attachments/assets/279d6334-bd97-45d6-aff4-c4230bd63bf9" width="150" height="300"/>
 
 사용자가 출발지와 목적지를 <a href="https://postcode.map.daum.net/guide" target="_blank">카카오 우편번호 API</a>를 활용해서 가져오면 </br>
 해당 데이터를 기반으로 **URL Scheme**을 통해 타사 지도로 연결해줍니다.
@@ -101,18 +121,13 @@ Map_Button(String text, String URL, String icon) {
   }
 ...
 ```
-</details>
 
-<details>
-<summary>
-  일정 시작시 행동
-</summary>
-<img src="https://github.com/user-attachments/assets/b11628b0-b3e4-47ad-9c47-4dd00753c568" width="500" height="300"/>
-<img src="https://github.com/user-attachments/assets/ca5b3710-67c5-48ce-b611-3944fffcc99a" width="300" height="300"/>
+### 일정 시작시 행동
+   <img src="https://github.com/user-attachments/assets/b11628b0-b3e4-47ad-9c47-4dd00753c568" width="500" height="300"/>
+   <img src="https://github.com/user-attachments/assets/ca5b3710-67c5-48ce-b611-3944fffcc99a" width="300" height="300"/>
 
 <a href="https://pub.dev/packages/device_apps" target="_blank">설치된 앱을 확인</a> 하는 패키지를 활용해서 일정이 시작될 때, 지정된 앱을 실행시키거나, 사이트를 열 수 있습니다. </br>
 **해당 패키지는 중단되었기에, <a href="https://pub.dev/packages/installed_apps" target="_blank">다른 패키지</a>를 사용해야합니다.
-</details>
 
 # 사용된 주요 패키지
 ```yaml
